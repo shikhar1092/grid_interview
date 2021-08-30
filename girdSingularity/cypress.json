@@ -1,0 +1,17 @@
+{
+    "baseUrl": "https://www.d3a.io/",
+    "video": false,
+    "chromeWebSecurity": false,
+    "screenshotOnRunFailure": true,
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "cypress/reports/mocha",
+            "quite": true,
+            "overwrite": false,
+            "html": true,
+            "json": true
+        }
+    }
+}
