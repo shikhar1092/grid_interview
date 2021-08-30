@@ -20,9 +20,9 @@ This repository contains the task which were completed as part of the interview 
 The aforementioned tests have been automated keeping in mind if one tests fail then execution totally comes to halt and other tests are automatically skipped. I have also provided the support for screenshot which will be taken only in case of failures.
 
 ### Resources:
-XPATH: https://www.npmjs.com/package/cypress-xpath
-NPM: https://www.npmjs.com/
-CYPRESS: https://docs.cypress.io/guides/overview/why-cypress
+1. XPATH: https://www.npmjs.com/package/cypress-xpath
+2. NPM: https://www.npmjs.com/
+3. CYPRESS: https://docs.cypress.io/guides/overview/why-cypress
 
 ### Note:
 I have put Login code in Before hook because everytime I was clicking on project then my webpage was automatically logged out, thus, put it inside hook.
